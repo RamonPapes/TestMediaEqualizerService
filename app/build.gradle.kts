@@ -23,10 +23,6 @@ android {
                 cppFlags.add("-std=c++11")
             }
         }
-
-//        ndk{
-//            abiFilters
-//        }
     }
 
     externalNativeBuild{
@@ -34,12 +30,6 @@ android {
             version = "3.10.2"
         }
     }
-//
-//    externalNativeBuild{
-//        cmake{
-//            path = file("src/main/cpp/CMakeList.txt")
-//        }
-//    }
 
     buildTypes {
         release {
